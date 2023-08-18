@@ -6,11 +6,6 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <?php
-            if(isset($_POST['Q1_A'])) {
-                $Q1_A = $_POST['Q1_A'];
-            echo $Q1_A;
-            }
-        ?>
+        <?php echo $_POST["Q1_A"]; ?>
     </body>
 </html>
